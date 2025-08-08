@@ -72,16 +72,16 @@ if (desviarAtaque) {
     console.log(`${nome} desvia do ataque do Guardião e decide dar um ataque mortal para derrotar o guardião, sacrificando toda sua Mana.`);
     if (manaMaxima >= 3500) {
         console.log(`${nome} acerta seu ataque especial, Getsuga Tensho no guardião e o derrota. Liberando o portão em direção ao Hueco Mundo.`)
-    }
+    };
+    console.log(`${nome} decide entrar no portal que o levaria ao Hueco Mundo`);
+    console.log(`Chegando ao Hueco Mundo ${nome} decide ir atrás do  do Hueco Mundo para o enfrentar em uma luta`);
+    console.log(`${nome} enquanto estava caminhando até o Imperador `);
+    
+    
+    
 } else {
     console.log(`O Guardião acerta um golpe mortal em ${nome} e a jornada acaba,pois ${nome} foi completamente massacrado e morto pelo ataque certeiro do guardião`)
-}
-
-
-
-
-
-
+};
 
 
 
