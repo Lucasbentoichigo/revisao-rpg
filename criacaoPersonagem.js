@@ -92,7 +92,10 @@ if (desviarAtaque) {
             console.log(`O ataque de Mr.X pulveriza completamente ${nome}`); 
         } else if (desviarAtaque && parryComContraAtaque) {
             console.log(`${nome} desvia do ataque, porém rapidamente Mr.X lança outro ataque mas ${nome} dá um parry perfeito, conseguindo lançar seu ataque especial com encantamento.`);
-            console.log(`Após usar o ataque e derrotar Mr.X, ${NOMEARMA} fica em pedaços `);
+            console.log(`Após usar o ataque e derrotar Mr.X, ${NOMEARMA} fica em pedaços e todos os atributos base de ${nome} ficam pela metade`);
+            console.log(`Porém após derrotar Mr.X, ${nome} decide levar consigo a arma de Mr.X para batalhas futuras.`);
+            let novaArma = "lança del relampago";
+            console.log(`${nome} decide voltar para racoon city para se recuperar e fazer missões mais facéis para recuperar seu nivel`);
             
         } else {
             console.log(`Mr.X mata ${nome} sem dificuldades.`);
