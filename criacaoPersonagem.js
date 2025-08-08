@@ -80,7 +80,26 @@ if (desviarAtaque) {
     console.log(`No momento que Mr.X chega ele dá a proposta de ${nome} se render e se juntar a ele para poupar sua vida`);
     let render = false;
     if (!render) {
-        console.log(`${nome} nega a desitência e desafia Mr.X para um combate até a morte`);   
+        console.log(`${nome} nega a desitência e desafia Mr.X para um combate até a morte`);
+        console.log(`${nome} e Mr.X começam sua feroz batalha`);
+        console.log(`Porém em poucos minutos ${nome} não consegue fazer nada durante a luta, a luta está totalmente unilateral, uma hora Mr.X bate e na outra ${nome} apanha`);
+        console.log(`Prestes a morrer, ${nome} usa todas as poções, e decide ir para o recurso final`);
+        console.log(`${nome} utiliza um encantamento que após o limite, a espada se quebraria`);
+        console.log(`O encantamento faz com que todos os atributos atinjam o maximo, mas, após isso todos os atributos base iriam cair pela metade`);
+        console.log("Mr.X decide usar seu ataque mais poderoso, a lança del relampago");
+        parryComContraAtaque = true;
+        if (!desviarAtaque) {
+            console.log(`O ataque de Mr.X pulveriza completamente ${nome}`); 
+        } else if (desviarAtaque && parryComContraAtaque) {
+            console.log(`${nome} desvia do ataque, porém rapidamente Mr.X lança outro ataque mas ${nome} dá um parry perfeito, conseguindo lançar seu ataque especial com encantamento.`);
+            console.log(`Após usar o ataque e derrotar Mr.X, ${NOMEARMA} fica em pedaços `);
+            
+        } else {
+            console.log(`Mr.X mata ${nome} sem dificuldades.`);
+            
+        }
+        
+           
     } else {
         console.log(`Mr.X segura na mão de ${nome} e o teleporta para o reino do desespero, onde ${nome} sofrerá pela eternidade.`);
         
