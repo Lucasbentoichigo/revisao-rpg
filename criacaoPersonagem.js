@@ -74,8 +74,18 @@ if (desviarAtaque) {
         console.log(`${nome} acerta seu ataque especial, Getsuga Tensho no guardião e o derrota. Liberando o portão em direção ao Hueco Mundo.`)
     };
     console.log(`${nome} decide entrar no portal que o levaria ao Hueco Mundo`);
-    console.log(`Chegando ao Hueco Mundo ${nome} decide ir atrás do  do Hueco Mundo para o enfrentar em uma luta`);
-    console.log(`${nome} enquanto estava caminhando até o Imperador `);
+    console.log(`Chegando ao Hueco Mundo ${nome} decide ir atrás de Mr.X a encarnação do desespero para o enfrentar em uma luta`);
+    console.log(`${nome} chega ao local de invocação de Mr.X e utilizando seu próprio sangue invoca Mr.X `);
+    console.log("No momento de sua invocação o ambiente fica sombrio e pesado, como se fosse a pressão do fundo do oceano");
+    console.log(`No momento que Mr.X chega ele dá a proposta de ${nome} se render e se juntar a ele para poupar sua vida`);
+    let render = false;
+    if (!render) {
+        console.log(`${nome} nega a desitência e desafia Mr.X para um combate até a morte`);   
+    } else {
+        console.log(`Mr.X segura na mão de ${nome} e o teleporta para o reino do desespero, onde ${nome} sofrerá pela eternidade.`);
+        
+    }
+    
     
     
     
